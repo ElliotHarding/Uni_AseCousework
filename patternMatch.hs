@@ -3,6 +3,8 @@
 decomposeId :: String -> (Char,Int)
 decomposeId idnum = (head idnum, read(tail idnum))
 
+
+
 main :: IO ()
 main = do
   putStr "Enter an ID number: "

@@ -1,0 +1,2 @@
+
+sumList (a:b) = a + sumList b
